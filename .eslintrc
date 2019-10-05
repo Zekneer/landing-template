@@ -1,0 +1,24 @@
+{
+  "extends": ["airbnb-base"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "linebreak-style": ["error", "windows"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "operator-linebreak": ["error", "after"],
+    "arrow-parens": ["error", "always"],
+    "consistent-return": ["off", { "treatUndefinedAsUnspecified": false }],
+    "no-new-func": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "no-shadow": "off"
+  }
+}

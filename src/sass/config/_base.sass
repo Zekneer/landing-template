@@ -1,0 +1,56 @@
+// Fonts
+html
+  font-size: 16px
+
+body
+  font-family: $main-font
+  font-size: 16px
+  font-weight: normal
+  line-height: 1.2
+
+b
+  font-weight: 700
+
+// Box model
+html
+  box-sizing: border-box
+  font-size: 16px
+
+body, 
+h1, h2, h3, h4, h5, h6,
+p,
+ol, ul
+  margin: 0
+  padding: 0
+  font-weight: normal
+
+*,
+*:before,
+*:after
+  box-sizing: inherit
+
+ol,
+ul
+  list-style: none
+
+img
+  max-width: 100%
+  height: auto
+
+// Disable Vertical Scroll
+html
+  overflow: scroll
+  overflow-x: hidden
+::-webkit-scrollbar
+  width: 0px
+  background: transparent
+::-webkit-scrollbar-thumb
+  background: #FF0000
+
+// Decoration
+*:focus
+  outline: none
+a
+  text-decoration: none
+svg
+  max-width: 100%

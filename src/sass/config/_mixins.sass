@@ -1,0 +1,20 @@
+@mixin flexCenter
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin medium
+  @media screen and (max-width: 1280px)
+    @content
+
+@mixin tablet
+  @media screen and (max-width: 768px)
+    @content
+
+@mixin mobileL
+  @media screen and (max-width: 425px)
+    @content
+
+@mixin mobileS
+  @media screen and (max-width: 320px)
+    @content

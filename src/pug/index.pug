@@ -1,0 +1,13 @@
+//- Get mixins on top level
+include ./config/_mixins.pug
+
+<!DOCTYPE html>
+html(lang="ru")
+  //- HEAD tag
+  include ./config/_head.pug
+  //- Page content
+  body
+    include ./blocks/_header.pug
+    main.main
+      h2 Hello world!
+    include ./blocks/_footer.pug
